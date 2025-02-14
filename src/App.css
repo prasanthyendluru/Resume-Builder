@@ -1,0 +1,25 @@
+
+.home__faq-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .question-title {
+    padding: 1rem;
+    background: #f9fafb; /* Light gray */
+    cursor: pointer;
+    border-bottom: 1px solid #e5e7eb; /* Subtle border */
+    transition: background 0.3s ease;
+  }
+  .question-title:hover {
+    background: #f3f4f6; /* Slightly darker gray */
+  }
+
+  .question-content {
+    padding: 1rem;
+    background: white;
+    border-top: 1px solid #e5e7eb; /* Subtle border */
+  }
+
